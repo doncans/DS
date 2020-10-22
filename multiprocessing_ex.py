@@ -4,18 +4,19 @@ cube_result = []
 sqr_result = []
 def cal_sqr(arr):
     # global sqr_result
-    time.sleep(0.2)
+
     for i in arr:
+        time.sleep(0.5)
         sqr_result.append(i*i)
     print(sqr_result)
 def cal_cube(arr):
-    time.sleep(0.2)
     for i in arr:
+        time.sleep(0.5)
         cube_result.append(i*i*i)
     print(cube_result)
 
 if __name__ == "__main__":
-    arr = range(1, 100, 3)
+    arr = range(1, 30, 3)
     # t = time.time()
     # cal_sqr(arr)
     # cal_cube(arr)
